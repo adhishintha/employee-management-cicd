@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/adhishintha/employee-management-application.git'
+                git branch: 'main', url: 'https://github.com/adhishintha/employee-management-cicd.git'
             }
         }
 
